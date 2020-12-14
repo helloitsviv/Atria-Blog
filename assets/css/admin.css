@@ -1,0 +1,101 @@
+header {
+    background-color:  #6d3e857e;
+}
+
+.admin-wrapper {
+    display: flex;
+    height: calc(100% - 66px);
+    font-family: "Lato", sans-serif;
+}
+
+.admin-wrapper .left-sidebar{
+    flex: 2;
+    height: 100%;
+    background: linear-gradient(to top, #311155, #4e0777);
+
+}
+
+.admin-wrapper .left-sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.admin-wrapper .left-sidebar ul li a {
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid rgb(35, 5, 53);
+    transition: 0.5s;
+
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+    background: linear-gradient(to right, #6a38ac, #8a0f96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 0.5s;
+}
+
+.admin-wrapper .admin-content{
+    flex: 8;
+    height: 100%;
+    background:  #352f2f;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;  /* if we have more data then itll give us the ability to scroll*/ 
+}
+
+.admin-content .page-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: "Raleway", serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+    color: rgb(234, 225, 238);
+    font-family: "Lato", serif;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #a452bd;
+}
+
+.edit {
+    color: rgb(24, 236, 24);
+}
+
+.delete {
+    color: rgb(224, 24, 24);
+}
+
+.publish {
+    color: rgb(125, 202, 238);
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+    text-decoration: underline;
+}
+
+.newtext-input {
+    padding: 0.7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    color: rgb(34, 31, 31);
+    background: #f7f2f8;  
+    line-height: 1.5rem;
+    font-family: "Lato", serif;
+}
+
+form div {
+    margin-bottom: 15px;
+    color: white;
+}
+
